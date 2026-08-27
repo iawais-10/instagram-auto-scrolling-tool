@@ -1,96 +1,145 @@
-# Instagram Auto Scrolling Tool — Appilot
+# Instagram Auto Scrolling Tool
 
-> Mobile Instagram scrolling workflow blueprint with session controls, operator review and activity logs for authorized accounts.
+[![Appilot — custom Instagram Auto Scrolling Tool development](assets/banner.png)](https://www.appilot.app/contact)
 
-<p align="center">
-  <a href="https://www.appilot.app/" target="_blank">
-    <img src="assets/01-banner.png" alt="Appilot Instagram scrolling automation tool" width="100%">
-  </a>
-</p>
+**Custom mobile Instagram scrolling workflow by Appilot, scoped around authorized accounts, bounded sessions and operator control.**
 
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Chat with CogWorkLabs on Telegram">
-  </a>&nbsp;
-  <a href="mailto:hello@cogworklabs.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-hello%40cogworklabs.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email CogWorkLabs">
-  </a>&nbsp;
-  <a href="https://www.cogworklabs.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-CogWorkLabs-087EFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit the CogWorkLabs website">
-  </a>
-</p>
+[Website](https://www.appilot.app/) · [Discuss your project](https://www.appilot.app/contact) · [Repository settings](REPOSITORY-SETUP.md)
 
-## What is this project?
+**Environment:** Mobile / Android · **Package:** public project showcase and custom-build brief
 
-This public showcase describes the scope and operating model for a custom **instagram auto scrolling tool**. It is designed for teams with authorized accounts and a defined business workflow. Like the reference showcase, it is documentation and a project brief—not a ready-to-run application.
+## Overview
 
-The requested environment is **mobile-based automation**. Final capabilities, integrations and deployment requirements must be agreed during discovery and demonstrated in a pilot. No source code or executable bot was provided for this package.
+An Instagram auto scrolling tool can reduce repetitive navigation in a defined mobile workflow. Appilot can scope a custom Instagram warm up tool around your devices, approved browsing tasks and operational requirements. “Warm up” describes the requested workflow; scrolling alone does not establish account trust or guarantee reach.
 
-This is not a follower-growth, auto-like or mass-DM tool. Scrolling does not guarantee reach, account trust or protection from restrictions.
+This repository contains documentation and supplied project media, not runnable application source. It follows the presentation structure of the [YouTube Views Booster Software showcase](https://github.com/iawais-10/youtube-views-booster-software). Features visible in screenshots are described as such; other controls are requirements to scope and verify, not claims of delivered functionality.
 
-## Why a complete workflow matters
+**Need a custom version? [Tell Appilot about your workflow →](https://www.appilot.app/contact)**
 
-A useful automation project needs more than repeated actions. The operator must know which account or profile is active, what is allowed, what counts as completion and when a person must take over. Unclear outcomes create rework; unattended retries can make an ordinary exception harder to recover from.
+## Watch the Demo
 
-Appilot can discuss a custom implementation around these requirements. The capabilities below are proposed scope, not an assertion that an unseen product already implements them.
+[Watch the project demo](https://youtu.be/_nDy-zUhhps)
 
-## What Appilot can scope for you
+The supplied video is a project reference. Confirm the final custom scope in a walkthrough.
 
-| Workflow layer | Proposed delivery requirement |
+## What the Software Can Manage
+
+| Area | Evidence or proposed scope |
 |---|---|
-| Account context | Confirm the authorized account and selected mobile device. |
-| Bounded scrolling | Define the permitted browsing task and session duration. |
-| Operator control | Specify manual stopping and pause-on-unexpected-screen behavior. |
-| Run evidence | Record completion and exceptions without exposing credentials. |
-| Pilot handoff | Test on representative devices and document recovery. |
+| Device selection | Select the authorized device and account for the agreed workflow. |
+| Scrolling sessions | Scope bounded feed navigation with explicit start and stop conditions. |
+| Operator controls | Specify manual pause and stop controls and escalation on unexpected screens. |
+| Run records | Agree useful completion and exception records without storing secrets. |
 
-## How the system is intended to work
+## Typical Use Cases
 
-1. Define the business task, ownership, exclusions and acceptance evidence.
-2. Select the authorized device and account.
-3. Validate the expected state before starting an approved task.
-4. Execute only the agreed workflow; stop on an unexpected state.
-5. Verify completion, record the outcome and route exceptions to a person.
+- Repetitive feed navigation on an authorized test device.
+- Repeatable mobile UI walkthroughs with operator supervision.
+- A scoped browsing workflow for a team-owned account.
 
-```mermaid
-flowchart TD
-    A["Approved task"] --> B["Validate context"]
-    B --> C["Run bounded workflow"]
-    C --> D["Verify outcome"]
-    D --> E["Log or escalate"]
+## How It Works
+
+The following is the proposed delivery workflow, not an installation guide:
+
+1. **Define the task.** Share a recording of the manual process and identify authorized accounts, devices or profiles.
+2. **Agree boundaries.** Specify permitted actions, exclusions, completion criteria and when an operator must take over.
+3. **Prepare a pilot.** Validate the environment and demonstrate a limited workflow with non-sensitive test inputs.
+4. **Review outcomes.** Check normal completion, unexpected screens, interruption and recovery. Stop when the outcome is uncertain.
+5. **Approve handoff.** Confirm configuration, access controls, operating instructions and support responsibilities.
+
+## Product Screenshots
+
+These are the original user-supplied screenshots, not AI-generated product mockups. The banner above is an AI-generated marketing visual.
+
+### Mobile app connection screen
+
+![Mobile app connection screen — Appilot project reference](assets/instagram-mobile-app.png)
+
+User-supplied photo of three Android devices showing an interface labelled Instagram Followers Bot, with connection and accessibility status indicators. This is a mobile automation reference, not a scrolling-specific screen.
+
+### Instagram on multiple devices
+
+![Instagram on multiple devices — Appilot project reference](assets/instagram-device-screens.png)
+
+User-supplied photo of Instagram notification, follow-list and profile screens. The image illustrates the mobile environment; it does not demonstrate warm-up effectiveness.
+
+## Core Modules
+
+These are proposed implementation responsibilities; the production stack and module boundaries must be confirmed during discovery.
+
+| Module | Purpose |
+|---|---|
+| Task configuration | Capture approved scope, inputs and completion criteria. |
+| Account or profile context | Validate the intended authorized execution environment. |
+| Workflow runner | Perform the agreed steps with bounded execution. |
+| Operator controls | Provide stopping, review and recovery paths. |
+| Outcome reporting | Record minimal status and exceptions without secrets. |
+
+See [architecture and acceptance checks](docs/architecture.md).
+
+## Repository Structure
+
+```text
+instagram-auto-scrolling-tool/
+  assets/
+    banner.png
+    instagram-mobile-app.png
+    instagram-device-screens.png
+  docs/
+    architecture.md
+    media-notes.md
+  .gitignore
+  CONTRIBUTING.md
+  LICENSE
+  README.md
+  REPOSITORY-SETUP.md
+  SECURITY.md
 ```
 
-## Getting started with a custom build
+Only one AI-generated image is included: `assets/banner.png`. All other images are supplied screenshots. No generated workflow illustrations are included.
 
-This repository has no installation command because it does not contain an application. To begin an implementation engagement:
+## Customization Options
 
-1. Record a representative manual task and provide sample inputs without secrets.
-2. Document the mobile devices and app versions in scope.
-3. Agree allowed actions, prohibited actions, completion checks and exception owners.
-4. Request a limited pilot with normal, failure and recovery cases.
-5. Approve a handoff including configuration instructions, access requirements and support scope.
+- Supported Android devices and app versions
+- Permitted navigation and session duration
+- Operator controls and exception handling
+- Activity reporting and handoff documentation
 
-## Watch the project demo
+Pricing depends on the agreed scope, environment, integrations and support. [Request a custom quote](https://www.appilot.app/contact); no fixed price or delivery date is implied by this showcase.
 
-[Watch the supplied project demo](https://youtu.be/_nDy-zUhhps)
+## Responsible Use
 
-The supplied video is a project reference; confirm requested safeguards during a scoped walkthrough.
+No automatic following, mass messaging, artificial engagement or restriction-bypass functionality is promised. The supplied images depict a broader followers-bot interface; do not treat them as evidence that the proposed scrolling controls are implemented.
 
-## Product screenshots
+Use only accounts and systems you own or are explicitly authorized to operate. Review applicable platform rules before deployment. Keep passwords, tokens and session data out of public repositories. Stop on login challenges, access restrictions or unexpected states rather than attempting to bypass them. Confirm review requirements for public-facing actions.
 
-Project-specific screenshots and testimonial videos were not supplied for this project. They are not fabricated or copied from another brand. See [the media manifest](assets/MEDIA-MANIFEST.md) for included illustrations and the assets still needed before launch.
-
+## Frequently Asked Questions
 
 
-## Who this is for
+### Can the workflow be adapted to my business?
 
-Operations teams, agencies and business owners who need a clearly scoped mobile workflow, documented boundaries and accountable handoff. It is not intended for anonymous mass activity, deceptive promotion or bypassing platform controls.
+Appilot can evaluate your process, devices and integration requirements. Share a representative manual workflow without secrets and agree a limited pilot before expanding the scope.
 
+### Are the screenshots real?
 
-## Build your workflow with Appilot
+They are user-supplied project screenshots, preserved unchanged. Captions distinguish what is visible from what still needs to be implemented or verified. See [media notes](docs/media-notes.md).
 
-Tell us what your team does today, which steps repeat and where exceptions need human judgment. We can discuss a scoped implementation with clear inputs, operating limits and acceptance criteria.
+### Are results guaranteed?
 
-**[Discuss your custom automation project →](https://www.appilot.app/contact)**
+No. This documentation makes no guarantee of growth, karma, account trust, throughput, platform approval or immunity from restrictions.
 
-[Appilot](https://www.appilot.app/) · [Contact](https://www.appilot.app/contact)
+### Is this an official platform product?
+
+No endorsement or affiliation with Instagram, Meta, AdsPower or Reddit is implied. Names identify the relevant workflow environment.
+
+## Build Your Custom Automation Tool
+
+**Appilot can help scope a custom tool around your workflow.** Bring the repetitive task; agree the controls, success criteria and support you need.
+
+[Discuss your project and request custom pricing →](https://www.appilot.app/contact)
+
+[Visit Appilot](https://www.appilot.app/) · [Contact Appilot](https://www.appilot.app/contact)
+
+## License
+
+The authored documentation is available under the [MIT license](LICENSE). Supplied screenshots, branding and third-party marks are excluded; obtain the necessary rights before redistributing those assets. No production application is licensed or delivered by this repository.
