@@ -2,7 +2,11 @@
 
 > Mobile Instagram scrolling workflow blueprint with session controls, operator review and activity logs for authorized accounts.
 
-[![Instagram Auto Scrolling Tool — Appilot branded concept banner](assets/01-banner.png)](https://www.appilot.app/contact)
+<p align="center">
+  <a href="https://www.appilot.app/" target="_blank">
+    <img src="assets/01-banner.png" alt="Appilot Instagram scrolling automation tool" width="100%">
+  </a>
+</p>
 
 <p align="center">
   <a href="https://t.me/devpilot1" target="_blank">
