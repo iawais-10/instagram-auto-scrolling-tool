@@ -100,30 +100,6 @@ Project-specific screenshots and testimonial videos were not supplied for this p
 
 Operations teams, agencies and business owners who need a clearly scoped mobile workflow, documented boundaries and accountable handoff. It is not intended for anonymous mass activity, deceptive promotion or bypassing platform controls.
 
-## Frequently asked questions
-
-### Can I download and run the tool from this repository?
-No. This is a showcase and implementation blueprint. A custom build must be scoped and delivered separately.
-
-### Are all the listed controls already implemented?
-No such claim is made. They are proposed requirements to confirm through a pilot and acceptance testing.
-
-### Can Appilot adapt the workflow to our environment?
-[Contact Appilot](https://www.appilot.app/contact) with the task recording, environment and constraints. Feasibility and integration choices require discovery.
-
-### Are the images actual product screens?
-No. The banner and diagrams are editorial illustrations. Real project screenshots require approved source media.
-
-### Is this affiliated with the platform owner?
-No affiliation or endorsement by Instagram, Meta, AdsPower or Reddit is implied. Names identify the environment being discussed.
-
-## Repository structure
-
-| Path | Contents |
-|---|---|
-| `README.md` | Project showcase, scope, workflow, demo status and CTA |
-| `REPOSITORY-SETUP.md` | Name, description, website, topics and publishing notes |
-| `assets/` | Banner, six diagrams and media manifest |
 
 ## Build your workflow with Appilot
 
