@@ -4,9 +4,6 @@
 
 **Custom mobile Instagram scrolling workflow by Appilot, scoped around authorized accounts, bounded sessions and operator control.**
 
-[Website](https://www.appilot.app/) · [Discuss your project](https://www.appilot.app/contact) · [Repository settings](REPOSITORY-SETUP.md)
-
-**Environment:** Mobile / Android · **Package:** public project showcase and custom-build brief
 
 ## Overview
 
