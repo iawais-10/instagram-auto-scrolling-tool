@@ -56,26 +56,6 @@ flowchart TD
     D --> E["Log or escalate"]
 ```
 
-## Workflow illustrations
-
-These are explanatory diagrams, **not screenshots of a running product**.
-
-![A bounded mobile session](assets/04-workflow.png)
-
-![Pilot acceptance checks](assets/06-controls.png)
-
-## Reference architecture
-
-| Layer | Design responsibility |
-|---|---|
-| Inputs | Authorized task scope and account/profile assignment |
-| Control | Validation, scheduling boundaries and operator permissions |
-| Execution | Approved mobile workflow on the agreed devices |
-| Evidence | Outcome checks, minimal logs and exception records |
-| Oversight | Human review, manual stopping and documented recovery |
-
-The final stack is selected after reviewing the actual environment. Do not infer compatibility, concurrency limits or production readiness from this diagram.
-
 ## Getting started with a custom build
 
 This repository has no installation command because it does not contain an application. To begin an implementation engagement:
