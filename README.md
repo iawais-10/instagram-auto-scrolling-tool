@@ -4,7 +4,17 @@
 
 [![Instagram Auto Scrolling Tool — Appilot branded concept banner](assets/01-banner.png)](https://www.appilot.app/contact)
 
-[Visit Appilot](https://www.appilot.app/) · [Discuss your project](https://www.appilot.app/contact) · [Publishing settings](REPOSITORY-SETUP.md)
+<p align="center">
+  <a href="https://t.me/devpilot1" target="_blank">
+    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Chat with CogWorkLabs on Telegram">
+  </a>&nbsp;
+  <a href="mailto:hello@cogworklabs.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-hello%40cogworklabs.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email CogWorkLabs">
+  </a>&nbsp;
+  <a href="https://www.cogworklabs.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit-CogWorkLabs-087EFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit the CogWorkLabs website">
+  </a>
+</p>
 
 ## What is this project?
 
