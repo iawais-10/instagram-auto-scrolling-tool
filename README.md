@@ -122,13 +122,6 @@ Appilot can evaluate your process, devices and integration requirements. Share a
 
 They are user-supplied project screenshots, preserved unchanged. Captions distinguish what is visible from what still needs to be implemented or verified.
 
-### Are results guaranteed?
-
-No. This documentation makes no guarantee of growth, karma, account trust, throughput, platform approval or immunity from restrictions.
-
-### Is this an official platform product?
-
-No endorsement or affiliation with Instagram, Meta, AdsPower or Reddit is implied. Names identify the relevant workflow environment.
 
 ## Build Your Custom Automation Tool
 
