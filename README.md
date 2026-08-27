@@ -9,7 +9,7 @@
 
 An Instagram auto scrolling tool can reduce repetitive navigation in a defined mobile workflow. Appilot can scope a custom Instagram warm up tool around your devices, approved browsing tasks and operational requirements. “Warm up” describes the requested workflow; scrolling alone does not establish account trust or guarantee reach.
 
-**Need a custom version? [Tell Appilot about your workflow →](https://www.appilot.app/contact)**
+
 
 ## Watch the Demo
 
@@ -70,7 +70,6 @@ These are proposed implementation responsibilities; the production stack and mod
 | Operator controls | Provide stopping, review and recovery paths. |
 | Outcome reporting | Record minimal status and exceptions without secrets. |
 
-See [architecture and acceptance checks](docs/architecture.md).
 
 ## Repository Structure
 
