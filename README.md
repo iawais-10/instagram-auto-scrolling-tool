@@ -72,19 +72,11 @@ This repository has no installation command because it does not contain an appli
 
 The supplied video is a project reference; confirm requested safeguards during a scoped walkthrough.
 
-## Product screenshots and testimonials
+## Product screenshots
 
 Project-specific screenshots and testimonial videos were not supplied for this project. They are not fabricated or copied from another brand. See [the media manifest](assets/MEDIA-MANIFEST.md) for included illustrations and the assets still needed before launch.
 
-## Operating safeguards
 
-- Use only accounts, profiles and data you own or are explicitly authorized to manage.
-- Review platform rules and permission requirements before deployment.
-- Keep credentials, session tokens and personal information out of public files and logs.
-- Pause on login challenges, unexpected screens, restrictions or uncertain outcomes.
-- Require human review for public-facing or consequential actions.
-- Agree retention, access removal and incident handling with the account owner.
-- Do not claim guaranteed engagement, rankings, karma, revenue or immunity from restrictions.
 
 ## Who this is for
 
