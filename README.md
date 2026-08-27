@@ -12,8 +12,6 @@
 
 An Instagram auto scrolling tool can reduce repetitive navigation in a defined mobile workflow. Appilot can scope a custom Instagram warm up tool around your devices, approved browsing tasks and operational requirements. “Warm up” describes the requested workflow; scrolling alone does not establish account trust or guarantee reach.
 
-This repository contains documentation and supplied project media, not runnable application source. It follows the presentation structure of the [YouTube Views Booster Software showcase](https://github.com/iawais-10/youtube-views-booster-software). Features visible in screenshots are described as such; other controls are requirements to scope and verify, not claims of delivered functionality.
-
 **Need a custom version? [Tell Appilot about your workflow →](https://www.appilot.app/contact)**
 
 ## Watch the Demo
@@ -122,7 +120,7 @@ Appilot can evaluate your process, devices and integration requirements. Share a
 
 ### Are the screenshots real?
 
-They are user-supplied project screenshots, preserved unchanged. Captions distinguish what is visible from what still needs to be implemented or verified. See [media notes](docs/media-notes.md).
+They are user-supplied project screenshots, preserved unchanged. Captions distinguish what is visible from what still needs to be implemented or verified.
 
 ### Are results guaranteed?
 
@@ -140,6 +138,3 @@ No endorsement or affiliation with Instagram, Meta, AdsPower or Reddit is implie
 
 [Visit Appilot](https://www.appilot.app/) · [Contact Appilot](https://www.appilot.app/contact)
 
-## License
-
-The authored documentation is available under the [MIT license](LICENSE). Supplied screenshots, branding and third-party marks are excluded; obtain the necessary rights before redistributing those assets. No production application is licensed or delivered by this repository.
